@@ -16,7 +16,7 @@ if (!token) {
 }
 
 const bot = new TelegramBot(token, { polling: true });
-const updatesChannel = '@Opleech_WD';
+const updatesChannel = '@motumovies';
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -66,7 +66,7 @@ const sendStartMessage = (chatId) => {
         parse_mode: 'Markdown',
         reply_markup: {
             inline_keyboard: [
-                [{ text: '〇 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 〇', url: 'https://t.me/Opleech_WD' }],
+                [{ text: '〇 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 〇', url: 'https://t.me/wrrohit02' }],
                 [{ text: '🔗 How to use Bot 🔗', url: 'https://t.me/WOODcraft_Mirror_Zone/43' }]
             ]
         }
